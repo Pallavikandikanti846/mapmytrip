@@ -1,0 +1,88 @@
+/* Disney forest vibes */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #dcedc1;
+    background-size: cover;
+    color: #3e2723;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 3px solid #81c784;
+}
+
+header h1 {
+    font-family: 'Papyrus', fantasy;
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1rem;
+}
+main{
+    height:28em;
+}
+.mainDiv {
+    text-align: center;
+    padding: 20px;
+}
+
+.mainDiv input,
+.mainDiv select,
+.mainDiv button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+.mainDiv button {
+    background: #81c784;
+    color: white;
+    cursor: pointer;
+}
+
+.mainDiv button:hover {
+    background: #66bb6a;
+}
+
+#resultsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.place-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #8d6e63;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    width: 240px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+}
+
+.place-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.6);
+}
